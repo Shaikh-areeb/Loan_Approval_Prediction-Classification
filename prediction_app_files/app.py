@@ -4,7 +4,7 @@ import pickle  # Assuming you have a trained ML model saved as a pickle file
 
 # Load your trained model
 # Replace 'model.pkl' with the path to your model file
-model = pickle.load(open(r"Loan_Approval_Prediction-Classification/main/prediction_app_files/xgboost_best.pkl", 'rb'))
+model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
 
 # Streamlit App
 st.title("Loan Approval Prediction")
