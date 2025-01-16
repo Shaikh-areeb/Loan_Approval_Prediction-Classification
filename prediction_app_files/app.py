@@ -24,10 +24,10 @@ self_employed = st.selectbox("Self-Employed", ("Yes", "No"))
 property_area = st.selectbox("Property Area", ("Rural", "Urban", "Semiurban"))
 
 # Input Boxes for Numerical Features
-applicant_income = st.number_input("Applicant Income", min_value=0, step=1000, value=5000)
-coapplicant_income = st.number_input("Coapplicant Income", min_value=0.0, step=1000.0, value=0.0)
-loan_amount = st.number_input("Loan Amount (in thousands)", min_value=0.0, step=1.0, value=100.0)
-loan_amount_term = st.number_input("Loan Amount Term (in months)", min_value=0, step=1, value=360)
+applicant_income = st.number_input("Applicant Income", min_value=0, step=1000, value=5000, max_value = 50000)
+coapplicant_income = st.number_input("Coapplicant Income", min_value=0.0, step=1000.0, value=0.0, max_value = 50000.0)
+loan_amount = st.number_input("Loan Amount (1 = 1 thousand)", min_value=0.0, step=1.0, value=100.0, max_value = 500.0)
+loan_amount_term = st.number_input("Loan Amount Term (1 = 1 month)", min_value=0, step=1, value=360)
 credit_history = st.selectbox("Credit History (1: Yes, 0: No)", (1, 0))
 
 # Encode Categorical Features
