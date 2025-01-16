@@ -10,7 +10,7 @@ model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
 st.title("Loan Approval Prediction")
 
 # Display the image
-st.image("prediction_app_files/personal%20loan.jpg", use_container_width=True)
+st.image("prediction_app_files/personal loan.jpg", use_container_width=True)
 
 # Input Features
 st.header("Input Applicant Details")
