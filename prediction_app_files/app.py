@@ -6,11 +6,11 @@ import pickle  # Assuming you have a trained ML model saved as a pickle file
 # Replace 'model.pkl' with the path to your model file
 model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
 
-# Streamlit App
-st.title("Loan Approval Prediction")
-
 # Display the image
 st.image("prediction_app_files/personal loan.jpg", use_container_width=True)
+
+# Streamlit App
+st.title("Loan Approval Prediction")
 
 # Input Features
 st.header("Input Applicant Details")
