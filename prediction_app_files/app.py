@@ -2,14 +2,20 @@ import streamlit as st
 import numpy as np
 import pickle  # Assuming you have a trained ML model saved as a pickle file
 import pymysql
+import os
 
 # Load your trained model
 # Replace 'model.pkl' with the path to your model file
 model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
 
+host = os.getenv('DB_HOST', 'localhost')  # Set a default fallback to 'localhost'
+user = os.getenv('DB_USER', 'root')
+password = os.getenv('DB_PASSWORD', 'Areeb@123')
+database = os.getenv('DB_NAME', 'loandb')
+port = int(os.getenv('DB_PORT', 3306))
+
 def connect_to_db():
-    # Database connection parameters
-    return pymysql.connect(host="localhost" ,user="root", password="Areeb@123", database="loandb", port=3306)
+    return pymysql.connect(host=host, user=user, password=password, database=database, port=port)
 
 # Function to insert data into the database
 def insert_data(data):
