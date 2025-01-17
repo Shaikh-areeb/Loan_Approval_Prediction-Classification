@@ -8,7 +8,7 @@ import os
 # Replace 'model.pkl' with the path to your model file
 model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
 
-host = os.getenv('DB_HOST', 'localhost')  # Set a default fallback to 'localhost'
+host = os.getenv('DB_HOST', '127.0.0.1')  # Set a default fallback to 'localhost'
 user = os.getenv('DB_USER', 'root')
 password = os.getenv('DB_PASSWORD', 'Areeb@123')
 database = os.getenv('DB_NAME', 'loandb')
