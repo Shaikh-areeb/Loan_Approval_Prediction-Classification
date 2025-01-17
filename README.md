@@ -137,13 +137,13 @@ User inputs and predictions are saved to the database for further analysis.
 
 # Conclusion
 
-This project demonstrates a robust pipeline for building and deploying machine learning models for real-world applications. 
-By automating the loan approval process, the system can assist financial institutions in making data-driven decisions efficiently and effectively.
+The XGBoost model was selected as the best-performing model for this project, achieving an accuracy of 86.18%. 
+Its superior performance and scalability, XGBoost was the ideal choice for deployment in this loan prediction system.
 
 
 ![image]()
 ![image]()
-![image]()
+![image]() 
 ![image]()
 ![image]()
 ![image]()
