@@ -6,9 +6,9 @@ The system predicts whether a loan application will be approved or rejected base
 
 # Table of Contents
 
-Objective
+-Objective
 
-Technologies Used
+-Technologies Used
 
 Steps in Model Development
 
@@ -32,11 +32,11 @@ Step 9: Model Serialization
 
 Step 10: Deployment with Streamlit
 
-Key Features
+-Key Features
 
-How to Use the Application
+-How to Use the Application
 
-Conclusion
+-Conclusion
 
 ## Models Perfomance
 
