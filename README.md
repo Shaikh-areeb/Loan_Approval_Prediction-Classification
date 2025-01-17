@@ -143,7 +143,7 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000133.png)
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000153.png)
-![image]() 
+![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000209.png) 
 ![image]()
 ![image]()
 ![image]()
