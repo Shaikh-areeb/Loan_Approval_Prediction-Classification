@@ -10,7 +10,7 @@ The system predicts whether a loan application will be approved or rejected base
 
 * Technologies Used
 
-Steps in Model Development
+* Steps in Model Development
 
 Step 1: Fetching Data From MySql
 
@@ -35,6 +35,91 @@ Step 10: Deployment with Streamlit
 * How to Use the Application
 
 * Conclusion
+
+## Objective
+
+To create a machine learning system that automates loan approval predictions for financial institutions. 
+The model identifies patterns in applicant data to ensure fair, efficient, and accurate decision-making.
+
+## Technologies Used
+
+* Python: Data preprocessing, model development, and deployment
+
+* MySQL: Data storage and retrieval
+
+* Scikit-learn: Machine learning and model evaluation
+
+* Streamlit: Web application for user interaction
+
+* SMOTE: Synthetic data generation for addressing class imbalance
+
+* Pickle: Model serialization for deployment
+
+## Steps in Model Development
+
+Step 1: Fetching Data
+
+* Data was retrieved directly from a MySQL database containing loan application records.
+
+Step 2: Descriptive Statistics
+
+* Performed summary statistics to understand data distributions and identify key patterns.
+
+Step 3: Data Cleaning
+
+* Missing Values: Filled missing values using:
+
+* Median for numerical columns
+
+* Mode for categorical columns
+
+* Duplicates: Checked for and removed fully duplicated rows to ensure data consistency.
+
+Step 4: Exploratory Data Analysis (EDA)
+
+* Conducted EDA to understand feature relationships:
+
+* Univariate Analysis: Histograms and box plots for individual features
+
+* Bivariate Analysis: Scatter plots and correlation heatmaps
+
+* Multivariate Analysis: Insights into feature interactions affecting loan approval
+
+Step 5: Outlier Removal
+
+* Removed outliers using statistical techniques (e.g., IQR) to improve model robustness.
+
+Step 6: Label Encoding
+
+* Encoded categorical variables into numerical format using Label Encoding, ensuring compatibility with machine learning models.
+
+Step 7: Addressing Imbalance with SMOTE
+
+* Applied Synthetic Minority Oversampling Technique (SMOTE) to handle class imbalance and improve model performance on minority classes.
+
+Step 8: Model Building and Tuning
+
+* Built and evaluated multiple machine learning models, including:
+
+* Logistic Regression
+* Random Forest
+* KNN
+* SVC
+* Decision Tree
+* XGBoost (Best Performing Model)
+
+* Performed hyperparameter tuning using GridSearchCV for optimal performance.
+
+Step 9: Model Serialization
+
+* Serialized the best-performing model (XGBoost) using Pickle for deployment.
+
+Step 10: Deployment with Streamlit
+
+* Developed a Streamlit-based web application:
+* Users can input applicant details.
+* The app predicts loan approval status.
+* Saves user data and predictions into the database for analysis.
 
 ## Models Perfomance
 
