@@ -142,6 +142,12 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 
 # Visual Isights Of The Project
 
+## Applicant Income Distribution
+![image]()
+
+## Loan Status VS Credit History
+![image]()
+
 ## Correlation Matrix
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000133.png)
 
@@ -151,9 +157,11 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 ## Class Balanced Using SMOTE
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000209.png) 
 
-![image]()
-![image]()
-![image]()
+## Feature Importance
+![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000225.png)
+
+
+
 
 
 ## Models Perfomance
