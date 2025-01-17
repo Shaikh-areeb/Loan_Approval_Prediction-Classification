@@ -146,7 +146,7 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000509.png)
 
 ## Loan Status VS Credit History
-![image]()
+![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000550.png)
 
 ## Correlation Matrix
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000133.png)
@@ -160,10 +160,6 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 ## Feature Importance
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000225.png)
 
-
-
-
-
 ## Models Perfomance
 
 | Model                | Accuracy   |
@@ -174,4 +170,7 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 | LogisticRegression   | 77.631579  |
 | KNN                  | 76.315789  |
 | SVC                  | 73.684211  |
+
+# My Web App Link
+https://loan-approvalprediction.streamlit.app/
 
