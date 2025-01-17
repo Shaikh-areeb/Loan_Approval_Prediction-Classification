@@ -141,7 +141,7 @@ The XGBoost model was selected as the best-performing model for this project, ac
 Its superior performance and scalability, XGBoost was the ideal choice for deployment in this loan prediction system.
 
 
-![image]()
+![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000133.png)
 ![image]()
 ![image]() 
 ![image]()
