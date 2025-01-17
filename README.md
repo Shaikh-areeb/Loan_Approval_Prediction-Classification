@@ -6,22 +6,22 @@ The system predicts whether a loan application will be approved or rejected base
 
 ## Table of Contents
 
-- [Objective](#objective)
-- [Technologies Used](#technologies-used)
-- [Steps in Model Development](#steps-in-model-development)
-  - [Step 1: Fetching Data](#step-1-fetching-data)
-  - [Step 2: Descriptive Statistics](#step-2-descriptive-statistics)
-  - [Step 3: Data Cleaning](#step-3-data-cleaning)
-  - [Step 4: Exploratory Data Analysis (EDA)](#step-4-exploratory-data-analysis-eda)
-  - [Step 5: Outlier Removal](#step-5-outlier-removal)
-  - [Step 6: Label Encoding](#step-6-label-encoding)
-  - [Step 7: Addressing Imbalance with SMOTE](#step-7-addressing-imbalance-with-smote)
-  - [Step 8: Model Building and Tuning](#step-8-model-building-and-tuning)
-  - [Step 9: Model Serialization](#step-9-model-serialization)
-  - [Step 10: Deployment with Streamlit](#step-10-deployment-with-streamlit)
-- [Key Features](#key-features)
-- [How to Use the Application](#how-to-use-the-application)
-- [Conclusion](#conclusion)
+- Objective
+- Technologies Used
+- Steps in Model Development
+  - Step 1: Fetching Data
+  - Step 2: Descriptive Statistics
+  - Step 3: Data Cleaning
+  - Step 4: Exploratory Data Analysis (EDA)
+  - Step 5: Outlier Removal
+  - Step 6: Label Encoding
+  - Step 7: Addressing Imbalance with SMOTE
+  - Step 8: Model Building and Tuning
+  - Step 9: Model Serialization
+  - Step 10: Deployment with Streamlit
+- Key Features
+- How to Use the Application
+- Conclusion
 
 
 ## Objective
@@ -108,6 +108,46 @@ Step 10: Deployment with Streamlit
 * Users can input applicant details.
 * The app predicts loan approval status.
 * Saves user data and predictions into the database for analysis.
+
+## Key Features
+
+* Interactive User Interface: Easy-to-use Streamlit app for loan approval predictions.
+
+* Real-time Data Storage: Saves user inputs and predictions into the database.
+
+* Robust Machine Learning Pipeline: Handles missing data, outliers, and class imbalance.
+
+* Optimized Model: Best model selected through rigorous evaluation and hyperparameter tuning.
+
+* Scalable Design: Can handle new data and adapt to changing business requirements.
+
+## How to Use the Application
+
+* Input Applicant Details:
+Enter details such as income, education, credit history, and more.
+
+* Submit:
+Click on the "Predict Loan Status" button.
+
+* Get Prediction:
+The app predicts whether the loan will be approved or rejected.
+
+* Data Storage:
+User inputs and predictions are saved to the database for further analysis.
+
+# Conclusion
+
+This project demonstrates a robust pipeline for building and deploying machine learning models for real-world applications. 
+By automating the loan approval process, the system can assist financial institutions in making data-driven decisions efficiently and effectively.
+
+
+![image]()
+![image]()
+![image]()
+![image]()
+![image]()
+![image]()
+
 
 ## Models Perfomance
 
