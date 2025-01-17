@@ -143,7 +143,7 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 # Visual Isights Of The Project
 
 ## Applicant Income Distribution
-![image]()
+![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000509.png)
 
 ## Loan Status VS Credit History
 ![image]()
