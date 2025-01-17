@@ -1,10 +1,28 @@
 import streamlit as st
 import numpy as np
 import pickle  # Assuming you have a trained ML model saved as a pickle file
+import pymysql
 
 # Load your trained model
 # Replace 'model.pkl' with the path to your model file
 model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
+
+def connect_to_db():
+    # Database connection parameters
+    return pymysql.connect(host="localhost" ,user="root", password="Areeb@123", database="loandb", port=3306)
+
+# Function to insert data into the database
+def insert_data(data):
+    connection = connect_to_db()
+    cursor = connection.cursor()
+    query = """INSERT INTO loan_application (gender, married, dependents, education, self_employed, 
+                                                   applicant_income, coapplicant_income, loan_amount, 
+                                                   loan_amount_term, credit_history, property_area, prediction) 
+               VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+    cursor.execute(query, data)
+    connection.commit()
+    cursor.close()
+    connection.close()
 
 # Display the image
 st.image("prediction_app_files/personal loan.jpg", use_container_width=True)
@@ -54,6 +72,19 @@ if st.button("Predict Loan Status"):
         st.success("The loan is likely to be approved!")
     else:
         st.error("The loan is likely to be rejected.")
+
+ # Prepare the data to be inserted into the database
+    data_to_insert = (
+        gender_encoded, married_encoded, dependents_encoded, education_encoded, self_employed_encoded,
+        applicant_income, coapplicant_income, loan_amount, loan_amount_term, credit_history, property_area_encoded, prediction[0]
+    )
+
+    # Insert data into the database
+    insert_data(data_to_insert)
+    st.info("Applicant details have been saved to the database.")
+
+# To run this app, save it as `app.py` and use the command:
+# streamlit run app.py
 
 # To run this app, save it as `app.py` and use the command:
 # streamlit run app.py
