@@ -8,11 +8,11 @@ import os
 # Replace 'model.pkl' with the path to your model file
 model = pickle.load(open("prediction_app_files/xgboost_best.pkl", 'rb'))
 
-host = os.getenv('DB_HOST', '127.0.0.1')  # Set a default fallback to 'localhost'
-user = os.getenv('DB_USER', 'root')
-password = os.getenv('DB_PASSWORD', 'Areeb@123')
-database = os.getenv('DB_NAME', 'loandb')
-port = int(os.getenv('DB_PORT', 3306))
+host = '127.0.0.1'  # Set a default fallback to 'localhost'
+user = 'root'
+password = 'Areeb@123'
+database = 'loandb'
+port = 3306
 
 def connect_to_db():
     return pymysql.connect(host=host, user=user, password=password, database=database, port=port)
