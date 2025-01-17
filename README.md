@@ -1,3 +1,6 @@
+# My Web App Link
+https://loan-approvalprediction.streamlit.app/
+
 # Loan Approval Prediction Classification
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/prediction_app_files/personal%20loan.jpg)
 
@@ -140,7 +143,7 @@ User inputs and predictions are saved to the database for further analysis.
 The XGBoost model was selected as the best-performing model for this project, achieving an accuracy of 86.18%. 
 Its superior performance and scalability, XGBoost was the ideal choice for deployment in this loan prediction system.
 
-# Visual Isights Of The Project
+# Visual Insights Of The Project
 
 ## Applicant Income Distribution
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000509.png)
@@ -171,6 +174,4 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 | KNN                  | 76.315789  |
 | SVC                  | 73.684211  |
 
-# My Web App Link
-https://loan-approvalprediction.streamlit.app/
 
