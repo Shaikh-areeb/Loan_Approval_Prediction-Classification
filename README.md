@@ -140,10 +140,17 @@ User inputs and predictions are saved to the database for further analysis.
 The XGBoost model was selected as the best-performing model for this project, achieving an accuracy of 86.18%. 
 Its superior performance and scalability, XGBoost was the ideal choice for deployment in this loan prediction system.
 
+# Visual Isights Of The Project
 
+## Correlation Matrix
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000133.png)
+
+## Class Imbalaced
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000153.png)
+
+## Class Balanced Using SMOTE
 ![image](https://github.com/Shaikh-areeb/Loan_Approval_Prediction-Classification/blob/main/visual%20insights%20images/Screenshot%202025-01-18%20000209.png) 
+
 ![image]()
 ![image]()
 ![image]()
