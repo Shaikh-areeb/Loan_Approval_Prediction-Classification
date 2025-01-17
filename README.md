@@ -4,37 +4,25 @@
 This project is a comprehensive Loan Approval Prediction System built using machine learning techniques. 
 The system predicts whether a loan application will be approved or rejected based on applicant details. Below are the steps undertaken to develop the model and deploy it as a user-friendly application.
 
-# Table of Contents
+## Table of Contents
 
-* Objective
+- [Objective](#objective)
+- [Technologies Used](#technologies-used)
+- [Steps in Model Development](#steps-in-model-development)
+  - [Step 1: Fetching Data](#step-1-fetching-data)
+  - [Step 2: Descriptive Statistics](#step-2-descriptive-statistics)
+  - [Step 3: Data Cleaning](#step-3-data-cleaning)
+  - [Step 4: Exploratory Data Analysis (EDA)](#step-4-exploratory-data-analysis-eda)
+  - [Step 5: Outlier Removal](#step-5-outlier-removal)
+  - [Step 6: Label Encoding](#step-6-label-encoding)
+  - [Step 7: Addressing Imbalance with SMOTE](#step-7-addressing-imbalance-with-smote)
+  - [Step 8: Model Building and Tuning](#step-8-model-building-and-tuning)
+  - [Step 9: Model Serialization](#step-9-model-serialization)
+  - [Step 10: Deployment with Streamlit](#step-10-deployment-with-streamlit)
+- [Key Features](#key-features)
+- [How to Use the Application](#how-to-use-the-application)
+- [Conclusion](#conclusion)
 
-* Technologies Used
-
-* Steps in Model Development
-
-Step 1: Fetching Data From MySql
-
-Step 2: Descriptive Statistics
-
-Step 3: Data Cleaning
-
-Step 4: Exploratory Data Analysis (EDA)
-
-Step 5: Outlier Removal
-
-Step 6: Label Encoding
-
-Step 7: Addressing Imbalance with SMOTE
-
-Step 8: Model Building and Tuning
-
-Step 9: Model Serialization
-
-Step 10: Deployment with Streamlit
-
-* How to Use the Application
-
-* Conclusion
 
 ## Objective
 
