@@ -175,4 +175,22 @@ Its superior performance and scalability, XGBoost was the ideal choice for deplo
 | KNN                  | 76.315789  |
 | SVC                  | 73.684211  |
 
+## Key Objectives of the Loan Approval Prediction Model
+
+- Automate Loan Approval Process:
+
+The model automates the decision-making process, allowing financial institutions to quickly assess loan applications without the need for manual review, saving time and improving operational efficiency.
+
+- Minimize Risk for Lenders:
+
+By predicting the likelihood of loan default based on applicant data, the model helps lenders make informed decisions, reducing the risk of loan defaults and financial loss.
+
+- Improve Decision-Making:
+
+The model enables data-driven decisions, leveraging historical data and applicant features (e.g., credit score, income) to predict loan repayment ability, leading to more accurate and consistent approvals.
+
+- Increase Access to Credit:
+
+By speeding up loan processing and reducing human biases, the model helps more applicants get timely access to credit, benefiting both individuals and businesses.
+
 
